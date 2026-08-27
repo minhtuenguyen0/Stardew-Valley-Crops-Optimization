@@ -1,21 +1,5 @@
 [
   {
-    "eng": "Ancient Fruit",
-    "seed": "Ancient Seeds",
-    "growth": 28,
-    "season": [
-      "Spring",
-      "Summer",
-      "Fall"
-    ],
-    "sellprice": 550,
-    "regrowDays": 7,
-    "multi": null,
-    "gPrice": null,
-    "jPrice": null,
-    "tPrice": null
-  },
-  {
     "eng": "Blue Jazz",
     "seed": "Jazz Seeds",
     "growth": 7,
@@ -131,7 +115,7 @@
     ],
     "sellprice": 80,
     "regrowDays": null,
-    "multi": null,
+    "multi": 1.25,
     "gPrice": 50,
     "jPrice": 62,
     "tPrice": 25
