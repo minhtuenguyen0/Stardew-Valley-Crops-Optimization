@@ -4,68 +4,6 @@ import json
 
 url = "https://stardewvalleywiki.com/mediawiki/api.php"
 
-# Parsnip - testing crops
-# params = {
-#     "action": "parse",
-#     "page": "Parsnip",
-#     "prop": "wikitext",
-#     "format": "json"
-# }
-# response = requests.get(url, params = params)
-
-# data = response.json()['parse']['wikitext']['*']
-# end_indx = data.find("\n}}")
-# data = data[2:end_indx]
-# info = data.split('\n')
-# dct = {info[i].split('=')[0].strip().strip('|'):
-#        info[i].split('=')[1].strip().strip('|') for i in range(1,len(info))}
-
-# dictionary cleanup
-# dct['growth'] = int(dct["growth"][0])
-# dct.pop('xp', None)
-# dct.pop('edibility', None)
-# dct.pop('color', None)
-# print(dct)
-
-# Parsnip - testing seeds
-# url_seeds = "https://stardewvalleywiki.com/mediawiki/api.php"
-# params_seeds = {
-#     "action": "parse",
-#     "page": "Parsnip Seeds",
-#     "prop": "wikitext",
-#     "format": "json"
-# }
-# response_seeds = requests.get(url_seeds, params = params_seeds)
-# data_seeds = response_seeds.json()['parse']['wikitext']['*']
-# end_indx_seeds = data_seeds.find("\n}}")
-# data_seeds = data_seeds[2:end_indx_seeds]
-# info_seeds = data_seeds.split('\n')
-# dct_seeds = {info_seeds[i].split('=')[0].strip().strip('|'):
-#        info_seeds[i].split('=')[1].strip().strip('|') for i in range(1,len(info_seeds))}
-
-# # dictionary clean up
-# popped_lst = ['image', 'crop', 'growth', 'season', 'nmday', 'sellprice']
-# for keys in popped_lst:
-#     dct_seeds.pop(keys, None)
-# for k in dct_seeds.keys():
-#     match = re.search(r"\|(\d+)", dct_seeds[k])
-#     dct_seeds[k] = int(match.group(1))
-
-# print(dct_seeds)
-
-# spring crops - testing
-# params_spring = {
-#     'action': 'query',
-#     'list': 'categorymembers',
-#     'cmtitle': 'Category:Spring crops',
-#     'cmlimit': 500,
-#     'format': 'json'
-# }
-# spring_crops = requests.get(url, params = params_spring)
-# spring_crops = spring_crops.json()['query']['categorymembers']
-# spring_crops = [spring_crops[i]['title'] for i in range(len(spring_crops))]
-# print(spring_crops)
-
 # crops for each season
 seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 crops_names_all = {}
@@ -117,6 +55,7 @@ for season, crop_list in crops_names_all.items():
         # clean up
         dct['growth'] = int(dct["growth"].split()[0])
         dct['seed'] = dct['seed'].split('|')[1].strip('}')
+        dct['sellprice'] = int(dct['sellprice'])
         pop_crops_lst = ['xp', 'edibility', 'color']
 
         if dct['season'].find("{{") == -1:
@@ -141,7 +80,9 @@ for season, crop_list in crops_names_all.items():
         info_seeds = data_seeds.split('\n')
         dct_seeds = {info_seeds[i].split('=')[0].strip().strip('|'):
                      info_seeds[i].split('=')[1].strip().strip('|') for i in range(1,len(info_seeds))}
-        popped_lst = ['eng', 'image', 'crop', 'growth', 'season', 'nmday', 'sellprice', 'note', 'desc', 'description', 'xp', 'edibility']
+        popped_lst = ['eng', 'image', 'crop', 'growth', 'season', 'nmday', 'sellprice',
+                      'note', 'desc', 'description', 'xp', 'edibility', 'type', 'source', 'produces', 'ingredients',
+                      'recipe', 'recipename']
         for keys in popped_lst:
             dct_seeds.pop(keys, None)
         for k in dct_seeds.keys():

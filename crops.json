@@ -8,16 +8,11 @@
       "Summer",
       "Fall"
     ],
-    "sellprice": "550",
+    "sellprice": 550,
     "regrowDays": 7,
     "gPrice": null,
     "jPrice": null,
-    "tPrice": null,
-    "source": null,
-    "ingredients": 1,
-    "recipe": null,
-    "produces": null,
-    "recipename": null
+    "tPrice": null
   },
   {
     "eng": "Blue Jazz",
@@ -26,7 +21,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "50",
+    "sellprice": 50,
     "regrowDays": null,
     "gPrice": 30,
     "jPrice": 37,
@@ -39,7 +34,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "35",
+    "sellprice": 35,
     "regrowDays": null
   },
   {
@@ -49,7 +44,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "175",
+    "sellprice": 175,
     "regrowDays": null,
     "gPrice": 80,
     "jPrice": 100,
@@ -57,14 +52,14 @@
   },
   {
     "eng": "Coffee Bean",
-    "source": null,
+    "source": "[[Dust Sprite]] \u2022 [[Traveling Cart]]",
     "seed": null,
     "growth": 10,
     "season": [
       "Spring",
       "Summer"
     ],
-    "sellprice": "15",
+    "sellprice": 15,
     "regrowDays": 2
   },
   {
@@ -74,7 +69,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "60",
+    "sellprice": 60,
     "regrowDays": null,
     "gPrice": 40,
     "jPrice": null,
@@ -87,7 +82,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "40",
+    "sellprice": 40,
     "regrowDays": 3,
     "gPrice": 60,
     "jPrice": 75,
@@ -100,7 +95,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "110",
+    "sellprice": 110,
     "regrowDays": null,
     "gPrice": 70,
     "jPrice": 87,
@@ -113,7 +108,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "35",
+    "sellprice": 35,
     "regrowDays": null,
     "gPrice": 20,
     "jPrice": 25,
@@ -126,7 +121,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "80",
+    "sellprice": 80,
     "regrowDays": null,
     "gPrice": 50,
     "jPrice": 62,
@@ -139,7 +134,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "220",
+    "sellprice": 220,
     "regrowDays": null,
     "gPrice": null,
     "jPrice": null,
@@ -153,7 +148,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "120",
+    "sellprice": 120,
     "regrowDays": 4,
     "gPrice": null,
     "jPrice": null,
@@ -167,7 +162,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "30",
+    "sellprice": 30,
     "regrowDays": null,
     "gPrice": 20,
     "jPrice": 25,
@@ -180,7 +175,7 @@
     "season": [
       "Spring"
     ],
-    "sellprice": "30",
+    "sellprice": 30,
     "regrowDays": null,
     "gPrice": 40,
     "tPrice": 10
@@ -192,7 +187,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "50",
+    "sellprice": 50,
     "regrowDays": 4,
     "gPrice": 80,
     "jPrice": null,
@@ -206,7 +201,7 @@
       "Summer",
       "Fall"
     ],
-    "sellprice": "50",
+    "sellprice": 50,
     "regrowDays": 4,
     "gPrice": 150,
     "jPrice": 187,
@@ -219,7 +214,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "25",
+    "sellprice": 25,
     "regrowDays": 1,
     "gPrice": 60,
     "jPrice": 75,
@@ -232,7 +227,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "40",
+    "sellprice": 40,
     "regrowDays": 3,
     "gPrice": 40,
     "jPrice": 50,
@@ -245,7 +240,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "250",
+    "sellprice": 250,
     "regrowDays": null,
     "gPrice": 80,
     "jPrice": 100,
@@ -258,7 +253,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "140",
+    "sellprice": 140,
     "regrowDays": null,
     "gPrice": 100,
     "jPrice": 125,
@@ -271,7 +266,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "90",
+    "sellprice": 90,
     "regrowDays": null,
     "gPrice": 40,
     "jPrice": 50,
@@ -284,7 +279,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "260",
+    "sellprice": 260,
     "regrowDays": null,
     "gPrice": 100,
     "jPrice": null,
@@ -297,7 +292,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "750",
+    "sellprice": 750,
     "regrowDays": null,
     "gPrice": null,
     "jPrice": null,
@@ -311,7 +306,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "90",
+    "sellprice": 90,
     "regrowDays": null,
     "gPrice": 50,
     "jPrice": 62,
@@ -324,7 +319,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "45",
+    "sellprice": 45,
     "regrowDays": 3
   },
   {
@@ -335,12 +330,11 @@
       "Summer",
       "Fall"
     ],
-    "sellprice": "80",
+    "sellprice": 80,
     "regrowDays": null,
     "gPrice": 200,
     "jPrice": 125,
-    "tPrice": 20,
-    "type": null
+    "tPrice": 20
   },
   {
     "eng": "Tomato",
@@ -349,7 +343,7 @@
     "season": [
       "Summer"
     ],
-    "sellprice": "60",
+    "sellprice": 60,
     "regrowDays": 4,
     "gPrice": 50,
     "jPrice": 62,
@@ -363,7 +357,7 @@
       "Summer",
       "Fall"
     ],
-    "sellprice": "25",
+    "sellprice": 25,
     "regrowDays": null,
     "gPrice": 10,
     "jPrice": 12,
@@ -376,7 +370,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "150",
+    "sellprice": 150,
     "regrowDays": null,
     "gPrice": 70,
     "jPrice": 87,
@@ -389,7 +383,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "160",
+    "sellprice": 160,
     "regrowDays": null,
     "gPrice": 30,
     "jPrice": null,
@@ -402,7 +396,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "100",
+    "sellprice": 100,
     "regrowDays": null,
     "gPrice": null,
     "jPrice": null,
@@ -416,7 +410,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "80",
+    "sellprice": 80,
     "regrowDays": null,
     "gPrice": 50,
     "jPrice": 62,
@@ -429,7 +423,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "70",
+    "sellprice": 70,
     "regrowDays": 4
   },
   {
@@ -439,7 +433,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "75",
+    "sellprice": 75,
     "regrowDays": 5,
     "gPrice": 240,
     "jPrice": 300,
@@ -452,7 +446,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "60",
+    "sellprice": 60,
     "regrowDays": 5,
     "gPrice": 20,
     "jPrice": 25,
@@ -465,7 +459,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "290",
+    "sellprice": 290,
     "regrowDays": null,
     "gPrice": 200,
     "jPrice": 250,
@@ -473,22 +467,18 @@
   },
   {
     "eng": "Grape",
-    "source": null,
+    "source": "[[Foraging]] \u2022 [[Farming]]",
     "seed": "Summer Seeds",
     "growth": 7,
     "season": [
       "Summer",
       "Fall"
     ],
-    "sellprice": "80",
+    "sellprice": 80,
     "regrowDays": 3,
     "gPrice": null,
     "jPrice": null,
-    "tPrice": 55,
-    "recipe": 24,
-    "ingredients": 1,
-    "recipename": null,
-    "produces": null
+    "tPrice": 55
   },
   {
     "eng": "Pumpkin",
@@ -497,7 +487,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "320",
+    "sellprice": 320,
     "regrowDays": null,
     "gPrice": 100,
     "jPrice": 125,
@@ -510,7 +500,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "3000",
+    "sellprice": 3000,
     "regrowDays": null,
     "gPrice": null,
     "jPrice": null,
@@ -523,7 +513,7 @@
     "season": [
       "Fall"
     ],
-    "sellprice": "160",
+    "sellprice": 160,
     "regrowDays": null,
     "gPrice": 60,
     "jPrice": 75,
@@ -536,7 +526,7 @@
     "season": [
       "Winter"
     ],
-    "sellprice": "60",
+    "sellprice": 60,
     "regrowDays": null
   }
 ]
