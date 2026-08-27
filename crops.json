@@ -65,9 +65,7 @@
       "Summer"
     ],
     "sellprice": "15",
-    "regrowDays": 2,
-    "xp": null,
-    "edibility": null
+    "regrowDays": 2
   },
   {
     "eng": "Garlic",
@@ -185,8 +183,7 @@
     "sellprice": "30",
     "regrowDays": null,
     "gPrice": 40,
-    "tPrice": 10,
-    "description": null
+    "tPrice": 10
   },
   {
     "eng": "Blueberry",

@@ -141,7 +141,7 @@ for season, crop_list in crops_names_all.items():
         info_seeds = data_seeds.split('\n')
         dct_seeds = {info_seeds[i].split('=')[0].strip().strip('|'):
                      info_seeds[i].split('=')[1].strip().strip('|') for i in range(1,len(info_seeds))}
-        popped_lst = ['eng', 'image', 'crop', 'growth', 'season', 'nmday', 'sellprice', 'note', 'desc']
+        popped_lst = ['eng', 'image', 'crop', 'growth', 'season', 'nmday', 'sellprice', 'note', 'desc', 'description', 'xp', 'edibility']
         for keys in popped_lst:
             dct_seeds.pop(keys, None)
         for k in dct_seeds.keys():
