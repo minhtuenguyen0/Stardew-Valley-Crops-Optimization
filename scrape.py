@@ -16,6 +16,8 @@ for s in seasons:
         'format': 'json'
     }
     crops_list = requests.get(url, params = params)
+    print(crops_list.status_code)
+    print(crops_list.text[:200])
     crops_list = crops_list.json()['query']['categorymembers']
     crops_list = [crops_list[i]['title'] for i in range(len(crops_list))]
     crops_names_all[f"{s}"] = crops_list
@@ -52,11 +54,15 @@ for season, crop_list in crops_names_all.items():
             match = re.search(r"Regrowth:\s*(\d+)\s*Days?", full_wikitext)
             dct["regrowDays"] = int(match.group(1))
 
+        # multiple harvests
+        multiples = {'Cranberries': 2, 'Blueberry': 3, 'Coffee Bean': 4}
+        dct['multi'] = multiples.get(dct['eng'], None)
+
         # clean up
         dct['growth'] = int(dct["growth"].split()[0])
         dct['seed'] = dct['seed'].split('|')[1].strip('}')
         dct['sellprice'] = int(dct['sellprice'])
-        pop_crops_lst = ['xp', 'edibility', 'color']
+        pop_crops_lst = ['xp', 'edibility', 'color', 'source']
 
         if dct['season'].find("{{") == -1:
             dct['season'] = [dct['season']]

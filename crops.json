@@ -10,6 +10,7 @@
     ],
     "sellprice": 550,
     "regrowDays": 7,
+    "multi": null,
     "gPrice": null,
     "jPrice": null,
     "tPrice": null
@@ -23,6 +24,7 @@
     ],
     "sellprice": 50,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 30,
     "jPrice": 37,
     "tPrice": 15
@@ -35,7 +37,8 @@
       "Spring"
     ],
     "sellprice": 35,
-    "regrowDays": null
+    "regrowDays": null,
+    "multi": null
   },
   {
     "eng": "Cauliflower",
@@ -46,13 +49,13 @@
     ],
     "sellprice": 175,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 80,
     "jPrice": 100,
     "tPrice": 40
   },
   {
     "eng": "Coffee Bean",
-    "source": "[[Dust Sprite]] \u2022 [[Traveling Cart]]",
     "seed": null,
     "growth": 10,
     "season": [
@@ -60,7 +63,8 @@
       "Summer"
     ],
     "sellprice": 15,
-    "regrowDays": 2
+    "regrowDays": 2,
+    "multi": 4
   },
   {
     "eng": "Garlic",
@@ -71,6 +75,7 @@
     ],
     "sellprice": 60,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 40,
     "jPrice": null,
     "tPrice": 20
@@ -84,6 +89,7 @@
     ],
     "sellprice": 40,
     "regrowDays": 3,
+    "multi": null,
     "gPrice": 60,
     "jPrice": 75,
     "tPrice": 30
@@ -97,6 +103,7 @@
     ],
     "sellprice": 110,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 70,
     "jPrice": 87,
     "tPrice": 35
@@ -110,6 +117,7 @@
     ],
     "sellprice": 35,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 20,
     "jPrice": 25,
     "tPrice": 10
@@ -123,6 +131,7 @@
     ],
     "sellprice": 80,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 50,
     "jPrice": 62,
     "tPrice": 25
@@ -136,6 +145,7 @@
     ],
     "sellprice": 220,
     "regrowDays": null,
+    "multi": null,
     "gPrice": null,
     "jPrice": null,
     "oPrice": 100,
@@ -150,6 +160,7 @@
     ],
     "sellprice": 120,
     "regrowDays": 4,
+    "multi": null,
     "gPrice": null,
     "jPrice": null,
     "tPrice": null,
@@ -164,6 +175,7 @@
     ],
     "sellprice": 30,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 20,
     "jPrice": 25,
     "tPrice": 10
@@ -177,6 +189,7 @@
     ],
     "sellprice": 30,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 40,
     "tPrice": 10
   },
@@ -189,6 +202,7 @@
     ],
     "sellprice": 50,
     "regrowDays": 4,
+    "multi": 3,
     "gPrice": 80,
     "jPrice": null,
     "tPrice": 40
@@ -203,6 +217,7 @@
     ],
     "sellprice": 50,
     "regrowDays": 4,
+    "multi": null,
     "gPrice": 150,
     "jPrice": 187,
     "tPrice": 75
@@ -216,6 +231,7 @@
     ],
     "sellprice": 25,
     "regrowDays": 1,
+    "multi": null,
     "gPrice": 60,
     "jPrice": 75,
     "tPrice": 30
@@ -229,6 +245,7 @@
     ],
     "sellprice": 40,
     "regrowDays": 3,
+    "multi": null,
     "gPrice": 40,
     "jPrice": 50,
     "tPrice": 20
@@ -242,6 +259,7 @@
     ],
     "sellprice": 250,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 80,
     "jPrice": 100,
     "tPrice": 40
@@ -255,6 +273,7 @@
     ],
     "sellprice": 140,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 100,
     "jPrice": 125,
     "tPrice": 50
@@ -268,6 +287,7 @@
     ],
     "sellprice": 90,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 40,
     "jPrice": 50,
     "tPrice": 20
@@ -281,6 +301,7 @@
     ],
     "sellprice": 260,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 100,
     "jPrice": null,
     "tPrice": 50
@@ -294,6 +315,7 @@
     ],
     "sellprice": 750,
     "regrowDays": null,
+    "multi": null,
     "gPrice": null,
     "jPrice": null,
     "oPrice": 400,
@@ -308,6 +330,7 @@
     ],
     "sellprice": 90,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 50,
     "jPrice": 62,
     "tPrice": 25
@@ -320,7 +343,8 @@
       "Summer"
     ],
     "sellprice": 45,
-    "regrowDays": 3
+    "regrowDays": 3,
+    "multi": null
   },
   {
     "eng": "Sunflower",
@@ -332,6 +356,7 @@
     ],
     "sellprice": 80,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 200,
     "jPrice": 125,
     "tPrice": 20
@@ -345,6 +370,7 @@
     ],
     "sellprice": 60,
     "regrowDays": 4,
+    "multi": null,
     "gPrice": 50,
     "jPrice": 62,
     "tPrice": 25
@@ -359,6 +385,7 @@
     ],
     "sellprice": 25,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 10,
     "jPrice": 12,
     "tPrice": 5
@@ -372,6 +399,7 @@
     ],
     "sellprice": 150,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 70,
     "jPrice": 87,
     "tPrice": 35
@@ -385,6 +413,7 @@
     ],
     "sellprice": 160,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 30,
     "jPrice": null,
     "tPrice": 15
@@ -398,6 +427,7 @@
     ],
     "sellprice": 100,
     "regrowDays": null,
+    "multi": null,
     "gPrice": null,
     "jPrice": null,
     "oPrice": 20,
@@ -412,6 +442,7 @@
     ],
     "sellprice": 80,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 50,
     "jPrice": 62,
     "tPrice": 25
@@ -424,7 +455,8 @@
       "Fall"
     ],
     "sellprice": 70,
-    "regrowDays": 4
+    "regrowDays": 4,
+    "multi": null
   },
   {
     "eng": "Cranberries",
@@ -435,6 +467,7 @@
     ],
     "sellprice": 75,
     "regrowDays": 5,
+    "multi": 2,
     "gPrice": 240,
     "jPrice": 300,
     "tPrice": 120
@@ -448,6 +481,7 @@
     ],
     "sellprice": 60,
     "regrowDays": 5,
+    "multi": null,
     "gPrice": 20,
     "jPrice": 25,
     "tPrice": 10
@@ -461,13 +495,13 @@
     ],
     "sellprice": 290,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 200,
     "jPrice": 250,
     "tPrice": 100
   },
   {
     "eng": "Grape",
-    "source": "[[Foraging]] \u2022 [[Farming]]",
     "seed": "Summer Seeds",
     "growth": 7,
     "season": [
@@ -476,6 +510,7 @@
     ],
     "sellprice": 80,
     "regrowDays": 3,
+    "multi": null,
     "gPrice": null,
     "jPrice": null,
     "tPrice": 55
@@ -489,6 +524,7 @@
     ],
     "sellprice": 320,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 100,
     "jPrice": 125,
     "tPrice": 50
@@ -502,6 +538,7 @@
     ],
     "sellprice": 3000,
     "regrowDays": null,
+    "multi": null,
     "gPrice": null,
     "jPrice": null,
     "tPrice": 1000
@@ -515,6 +552,7 @@
     ],
     "sellprice": 160,
     "regrowDays": null,
+    "multi": null,
     "gPrice": 60,
     "jPrice": 75,
     "tPrice": 30
@@ -527,6 +565,7 @@
       "Winter"
     ],
     "sellprice": 60,
-    "regrowDays": null
+    "regrowDays": null,
+    "multi": null
   }
 ]
