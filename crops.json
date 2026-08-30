@@ -1,5 +1,21 @@
 [
   {
+    "eng": "Ancient Fruit",
+    "seed": "Ancient Seeds",
+    "growth": 28,
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "sellprice": 550,
+    "regrowDays": 7,
+    "multi": null,
+    "gPrice": null,
+    "jPrice": null,
+    "tPrice": null
+  },
+  {
     "eng": "Blue Jazz",
     "seed": "Jazz Seeds",
     "growth": 7,
@@ -48,7 +64,8 @@
     ],
     "sellprice": 15,
     "regrowDays": 2,
-    "multi": 4
+    "multi": 4,
+    "tPrice": 2500
   },
   {
     "eng": "Garlic",
@@ -115,7 +132,7 @@
     ],
     "sellprice": 80,
     "regrowDays": null,
-    "multi": 1.25,
+    "multi": null,
     "gPrice": 50,
     "jPrice": 62,
     "tPrice": 25
@@ -486,18 +503,17 @@
   },
   {
     "eng": "Grape",
-    "seed": "Summer Seeds",
+    "seed": "Grape Starter",
     "growth": 7,
     "season": [
-      "Summer",
       "Fall"
     ],
     "sellprice": 80,
     "regrowDays": 3,
     "multi": null,
-    "gPrice": null,
-    "jPrice": null,
-    "tPrice": 55
+    "gPrice": 60,
+    "jPrice": 75,
+    "tPrice": 100
   },
   {
     "eng": "Pumpkin",
