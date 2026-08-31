@@ -1,0 +1,571 @@
+[
+  {
+    "eng": "Ancient Fruit",
+    "seed": "Ancient Seeds",
+    "growth": 28,
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "sellprice": 550,
+    "regrowDays": 7,
+    "multi": null,
+    "gPrice": null,
+    "jPrice": null,
+    "tPrice": null
+  },
+  {
+    "eng": "Blue Jazz",
+    "seed": "Jazz Seeds",
+    "growth": 7,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 50,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 30,
+    "jPrice": 37,
+    "tPrice": 15
+  },
+  {
+    "eng": "Carrot",
+    "seed": "Carrot Seeds",
+    "growth": 3,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 35,
+    "regrowDays": null,
+    "multi": null
+  },
+  {
+    "eng": "Cauliflower",
+    "seed": "Cauliflower Seeds",
+    "growth": 12,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 175,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 80,
+    "jPrice": 100,
+    "tPrice": 40
+  },
+  {
+    "eng": "Coffee Bean",
+    "seed": null,
+    "growth": 10,
+    "season": [
+      "Spring",
+      "Summer"
+    ],
+    "sellprice": 15,
+    "regrowDays": 2,
+    "multi": 4,
+    "tPrice": 2500
+  },
+  {
+    "eng": "Garlic",
+    "seed": "Garlic Seeds",
+    "growth": 4,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 60,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 40,
+    "jPrice": null,
+    "tPrice": 20
+  },
+  {
+    "eng": "Green Bean",
+    "seed": "Bean Starter",
+    "growth": 10,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 40,
+    "regrowDays": 3,
+    "multi": null,
+    "gPrice": 60,
+    "jPrice": 75,
+    "tPrice": 30
+  },
+  {
+    "eng": "Kale",
+    "seed": "Kale Seeds",
+    "growth": 6,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 110,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 70,
+    "jPrice": 87,
+    "tPrice": 35
+  },
+  {
+    "eng": "Parsnip",
+    "seed": "Parsnip Seeds",
+    "growth": 4,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 35,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 20,
+    "jPrice": 25,
+    "tPrice": 10
+  },
+  {
+    "eng": "Potato",
+    "seed": "Potato Seeds",
+    "growth": 6,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 80,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 50,
+    "jPrice": 62,
+    "tPrice": 25
+  },
+  {
+    "eng": "Rhubarb",
+    "seed": "Rhubarb Seeds",
+    "growth": 13,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 220,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": null,
+    "jPrice": null,
+    "oPrice": 100,
+    "tPrice": 50
+  },
+  {
+    "eng": "Strawberry",
+    "seed": "Strawberry Seeds",
+    "growth": 8,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 120,
+    "regrowDays": 4,
+    "multi": null,
+    "gPrice": null,
+    "jPrice": null,
+    "tPrice": null,
+    "otherprice": 100
+  },
+  {
+    "eng": "Tulip",
+    "seed": "Tulip Bulb",
+    "growth": 6,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 30,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 20,
+    "jPrice": 25,
+    "tPrice": 10
+  },
+  {
+    "eng": "Unmilled Rice",
+    "seed": "Rice Shoot",
+    "growth": 8,
+    "season": [
+      "Spring"
+    ],
+    "sellprice": 30,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 40,
+    "tPrice": 10
+  },
+  {
+    "eng": "Blueberry",
+    "seed": "Blueberry Seeds",
+    "growth": 13,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 50,
+    "regrowDays": 4,
+    "multi": 3,
+    "gPrice": 80,
+    "jPrice": null,
+    "tPrice": 40
+  },
+  {
+    "eng": "Corn",
+    "seed": "Corn Seeds",
+    "growth": 14,
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "sellprice": 50,
+    "regrowDays": 4,
+    "multi": null,
+    "gPrice": 150,
+    "jPrice": 187,
+    "tPrice": 75
+  },
+  {
+    "eng": "Hops",
+    "seed": "Hops Starter",
+    "growth": 11,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 25,
+    "regrowDays": 1,
+    "multi": null,
+    "gPrice": 60,
+    "jPrice": 75,
+    "tPrice": 30
+  },
+  {
+    "eng": "Hot Pepper",
+    "seed": "Pepper Seeds",
+    "growth": 5,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 40,
+    "regrowDays": 3,
+    "multi": null,
+    "gPrice": 40,
+    "jPrice": 50,
+    "tPrice": 20
+  },
+  {
+    "eng": "Melon",
+    "seed": "Melon Seeds",
+    "growth": 12,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 250,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 80,
+    "jPrice": 100,
+    "tPrice": 40
+  },
+  {
+    "eng": "Poppy",
+    "seed": "Poppy Seeds",
+    "growth": 7,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 140,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 100,
+    "jPrice": 125,
+    "tPrice": 50
+  },
+  {
+    "eng": "Radish",
+    "seed": "Radish Seeds",
+    "growth": 6,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 90,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 40,
+    "jPrice": 50,
+    "tPrice": 20
+  },
+  {
+    "eng": "Red Cabbage",
+    "seed": "Red Cabbage Seeds",
+    "growth": 9,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 260,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 100,
+    "jPrice": null,
+    "tPrice": 50
+  },
+  {
+    "eng": "Starfruit",
+    "seed": "Starfruit Seeds",
+    "growth": 13,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 750,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": null,
+    "jPrice": null,
+    "oPrice": 400,
+    "tPrice": 200
+  },
+  {
+    "eng": "Summer Spangle",
+    "seed": "Spangle Seeds",
+    "growth": 8,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 90,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 50,
+    "jPrice": 62,
+    "tPrice": 25
+  },
+  {
+    "eng": "Summer Squash",
+    "seed": "Summer Squash Seeds",
+    "growth": 6,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 45,
+    "regrowDays": 3,
+    "multi": null
+  },
+  {
+    "eng": "Sunflower",
+    "seed": "Sunflower Seeds",
+    "growth": 8,
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "sellprice": 80,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 200,
+    "jPrice": 125,
+    "tPrice": 20
+  },
+  {
+    "eng": "Tomato",
+    "seed": "Tomato Seeds",
+    "growth": 11,
+    "season": [
+      "Summer"
+    ],
+    "sellprice": 60,
+    "regrowDays": 4,
+    "multi": null,
+    "gPrice": 50,
+    "jPrice": 62,
+    "tPrice": 25
+  },
+  {
+    "eng": "Wheat",
+    "seed": "Wheat Seeds",
+    "growth": 4,
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "sellprice": 25,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 10,
+    "jPrice": 12,
+    "tPrice": 5
+  },
+  {
+    "eng": "Amaranth",
+    "seed": "Amaranth Seeds",
+    "growth": 7,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 150,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 70,
+    "jPrice": 87,
+    "tPrice": 35
+  },
+  {
+    "eng": "Artichoke",
+    "seed": "Artichoke Seeds",
+    "growth": 8,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 160,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 30,
+    "jPrice": null,
+    "tPrice": 15
+  },
+  {
+    "eng": "Beet",
+    "seed": "Beet Seeds",
+    "growth": 6,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 100,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": null,
+    "jPrice": null,
+    "oPrice": 20,
+    "tPrice": 10
+  },
+  {
+    "eng": "Bok Choy",
+    "seed": "Bok Choy Seeds",
+    "growth": 4,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 80,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 50,
+    "jPrice": 62,
+    "tPrice": 25
+  },
+  {
+    "eng": "Broccoli",
+    "seed": "Broccoli Seeds",
+    "growth": 8,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 70,
+    "regrowDays": 4,
+    "multi": null
+  },
+  {
+    "eng": "Cranberries",
+    "seed": "Cranberry Seeds",
+    "growth": 7,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 75,
+    "regrowDays": 5,
+    "multi": 2,
+    "gPrice": 240,
+    "jPrice": 300,
+    "tPrice": 120
+  },
+  {
+    "eng": "Eggplant",
+    "seed": "Eggplant Seeds",
+    "growth": 5,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 60,
+    "regrowDays": 5,
+    "multi": null,
+    "gPrice": 20,
+    "jPrice": 25,
+    "tPrice": 10
+  },
+  {
+    "eng": "Fairy Rose",
+    "seed": "Fairy Seeds",
+    "growth": 12,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 290,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 200,
+    "jPrice": 250,
+    "tPrice": 100
+  },
+  {
+    "eng": "Grape",
+    "seed": "Grape Starter",
+    "growth": 7,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 80,
+    "regrowDays": 3,
+    "multi": null,
+    "gPrice": 60,
+    "jPrice": 75,
+    "tPrice": 100
+  },
+  {
+    "eng": "Pumpkin",
+    "seed": "Pumpkin Seeds",
+    "growth": 13,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 320,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 100,
+    "jPrice": 125,
+    "tPrice": 50
+  },
+  {
+    "eng": "Sweet Gem Berry",
+    "seed": "Rare Seed",
+    "growth": 24,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 3000,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": null,
+    "jPrice": null,
+    "tPrice": 1000
+  },
+  {
+    "eng": "Yam",
+    "seed": "Yam Seeds",
+    "growth": 10,
+    "season": [
+      "Fall"
+    ],
+    "sellprice": 160,
+    "regrowDays": null,
+    "multi": null,
+    "gPrice": 60,
+    "jPrice": 75,
+    "tPrice": 30
+  },
+  {
+    "eng": "Powdermelon",
+    "seed": "Powdermelon Seeds",
+    "growth": 7,
+    "season": [
+      "Winter"
+    ],
+    "sellprice": 60,
+    "regrowDays": null,
+    "multi": null
+  }
+]
